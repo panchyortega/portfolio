@@ -1,0 +1,22 @@
+/**
+ * Atoms - Enlaces
+ */
+
+.link {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 0.2s, text-decoration 0.2s;
+}
+
+.link:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+
+.link--muted {
+  color: var(--color-text-secondary);
+}
+
+.link--muted:hover {
+  color: var(--color-text-primary);
+}

@@ -1,0 +1,51 @@
+/**
+ * Organisms - Grid de proyectos
+ * Grid responsiva: 1 columna en móvil, 2 en tablet, 3 en desktop.
+ * Cada card ocupa un slot de la grid.
+ */
+
+.project-grid {
+  padding: var(--spacing-3xl) var(--spacing-lg);
+}
+
+.project-grid__title {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-semibold);
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.project-grid__list {
+  display: grid;
+  grid-template-columns: 1fr; /* 1 columna por defecto (móvil) */
+  gap: var(--spacing-xl);
+  max-width: var(--breakpoint-xl, 1280px);
+  margin: 0 auto;
+  list-style: none;
+}
+
+.project-grid__item {
+  min-width: 0; /* permite que el contenido se comprima dentro del grid */
+}
+
+.project-grid__item a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+}
+
+/* Tablet: 2 columnas */
+@media (min-width: 640px) {
+  .project-grid__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop: 3 columnas */
+@media (min-width: 1024px) {
+  .project-grid__list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-xl);
+  }
+}

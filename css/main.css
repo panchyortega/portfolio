@@ -1,0 +1,52 @@
+/**
+ * Portafolio UX/UI - Estilos principales
+ * Importa tokens y componentes en orden de especificidad
+ */
+
+/* Tokens */
+@import "tokens/colors.css";
+@import "tokens/typography.css";
+@import "tokens/spacing.css";
+
+/* Atoms */
+@import "atoms/buttons.css";
+@import "atoms/links.css";
+@import "atoms/icons.css";
+
+/* Molecules */
+@import "molecules/card.css";
+@import "molecules/navigation.css";
+@import "molecules/hero.css";
+
+/* Organisms */
+@import "organisms/header.css";
+@import "organisms/footer.css";
+@import "organisms/project-grid.css";
+
+/* Reset base */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-normal);
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

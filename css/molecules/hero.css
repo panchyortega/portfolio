@@ -1,0 +1,34 @@
+/**
+ * Molecules - Hero
+ */
+
+.hero {
+  padding: var(--spacing-4xl) 0 var(--spacing-3xl);
+  text-align: center;
+}
+
+.hero__title {
+  font-size: var(--font-size-5xl);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+  margin-bottom: var(--spacing-lg);
+}
+
+.hero__subtitle {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-secondary);
+  max-width: 36rem;
+  margin: 0 auto var(--spacing-xl);
+  line-height: var(--line-height-relaxed);
+}
+
+.hero__cta {
+  margin-top: var(--spacing-lg);
+}
+
+@media (min-width: 768px) {
+  .hero__title {
+    font-size: var(--font-size-6xl);
+  }
+}

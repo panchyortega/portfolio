@@ -1,0 +1,45 @@
+/**
+ * Organisms - Footer
+ */
+
+.footer {
+  background-color: var(--color-brown-900);
+  color: var(--color-cream-100);
+  padding: var(--spacing-3xl) var(--spacing-lg);
+  margin-top: var(--spacing-4xl);
+}
+
+.footer__inner {
+  max-width: var(--breakpoint-xl, 1280px);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer__text {
+  font-size: var(--font-size-sm);
+  color: var(--color-cream-200);
+  margin-bottom: var(--spacing-md);
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-lg);
+}
+
+.footer__link {
+  color: var(--color-cream-200);
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  transition: color 0.2s;
+}
+
+.footer__link:hover {
+  color: var(--color-white);
+}
+
+.footer__copyright {
+  font-size: var(--font-size-xs);
+  color: var(--color-brown-300);
+}

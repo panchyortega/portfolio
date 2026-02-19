@@ -1,0 +1,61 @@
+/**
+ * Tokens de colores
+ * Sistema de diseño: crema, cafés, rojo acento
+ */
+
+:root {
+  /* Crema */
+  --color-cream-50: #fdfbf7;
+  --color-cream-100: #f9f5ed;
+  --color-cream-200: #f2ebe0;
+  --color-cream-300: #e8ddd0;
+  --color-cream-400: #ddcebe;
+
+  /* Cafés */
+  --color-brown-50: #f5f0ea;
+  --color-brown-100: #e8dfd4;
+  --color-brown-200: #d4c4b0;
+  --color-brown-300: #b8a088;
+  --color-brown-400: #9a8268;
+  --color-brown-500: #7d6852;
+  --color-brown-600: #635240;
+  --color-brown-700: #4a3d30;
+  --color-brown-800: #322920;
+  --color-brown-900: #1a1510;
+
+  /* Rojo acento */
+  --color-red-50: #fdf2f2;
+  --color-red-100: #fde8e8;
+  --color-red-200: #fbd5d5;
+  --color-red-300: #f8b4b4;
+  --color-red-400: #f87171;
+  --color-red-500: #ef4444;
+  --color-red-600: #dc2626;
+  --color-red-700: #b91c1c;
+  --color-red-800: #991b1b;
+  --color-red-900: #7f1d1d;
+
+  /* Neutros */
+  --color-white: #ffffff;
+  --color-black: #0a0a0a;
+  --color-gray-100: #f5f5f5;
+  --color-gray-200: #e5e5e5;
+  --color-gray-300: #d4d4d4;
+  --color-gray-400: #a3a3a3;
+  --color-gray-500: #737373;
+  --color-gray-600: #525252;
+  --color-gray-700: #404040;
+  --color-gray-800: #262626;
+  --color-gray-900: #171717;
+
+  /* Semánticos */
+  --color-bg-primary: var(--color-cream-50);
+  --color-bg-secondary: var(--color-cream-100);
+  --color-bg-card: var(--color-white);
+  --color-text-primary: var(--color-brown-900);
+  --color-text-secondary: var(--color-brown-600);
+  --color-text-muted: var(--color-gray-500);
+  --color-accent: var(--color-red-500);
+  --color-accent-hover: var(--color-red-600);
+  --color-accent-light: var(--color-red-50);
+}
