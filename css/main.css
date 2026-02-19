@@ -1,27 +1,7 @@
 /**
- * Portafolio UX/UI - Estilos principales
- * Importa tokens y componentes en orden de especificidad
+ * Portafolio UX/UI - Reset y estilos base
+ * Los demás CSS se cargan por <link> en el HTML para evitar fallos con file:// y @import
  */
-
-/* Tokens */
-@import "tokens/colors.css";
-@import "tokens/typography.css";
-@import "tokens/spacing.css";
-
-/* Atoms */
-@import "atoms/buttons.css";
-@import "atoms/links.css";
-@import "atoms/icons.css";
-
-/* Molecules */
-@import "molecules/card.css";
-@import "molecules/navigation.css";
-@import "molecules/hero.css";
-
-/* Organisms */
-@import "organisms/header.css";
-@import "organisms/footer.css";
-@import "organisms/project-grid.css";
 
 /* Reset base */
 *,
